@@ -35,11 +35,12 @@ namespace Find_The_Parity_Outlier
 
     public class Kata
     {
-        public int Find(int[] input)
+        public int Find(int[] integers)
         {
-            if (input.Where(x => x % 2 == 0).Count() > input.Where(x => x % 2 != 0).Count())
-                return input.Where(x => x % 2 != 0).FirstOrDefault();
-            return input.Where(x => x % 2 == 0).FirstOrDefault();
+
+            return integers.Where(x => x % 2 == 0).Count() > integers.Where(x => x % 2 != 0).Count()
+                ? integers.Where(x => x % 2 != 0).First()
+                : integers.Where(x => x % 2 == 0).First();
         }
     }
 }
