@@ -10,20 +10,25 @@ namespace Find_The_Parity_Outlier
         [TestMethod]
         public void Input_0_1_Maxint_Should_Be_0()
         {
-            var kata = new Kata();
-            int[] input = { 0, 1, int.MaxValue };
-            int actual = kata.Find(input);
-            int expected = 0;
-            Assert.AreEqual(expected, actual);
+            getResult(0, new[] { 0, 1, int.MaxValue });
         }
 
         [TestMethod]
         public void Input_0_1_minInt_Should_Be_1()
         {
+            getResult(1, new[] { 0, 1, int.MinValue });
+        }
+
+        [TestMethod]
+        public void Input_1_3_2_5_Should_Be_2()
+        {
+            getResult(2, new[] { 1, 3, 2, 5 });
+        }
+
+        private static void getResult(int expected, int[] input)
+        {
             var kata = new Kata();
-            int[] input = { 0, 1, int.MinValue };
             int actual = kata.Find(input);
-            int expected = 1;
             Assert.AreEqual(expected, actual);
         }
     }
@@ -32,10 +37,8 @@ namespace Find_The_Parity_Outlier
     {
         public int Find(int[] input)
         {
-            if (input.Where(x=>x%2==0).Count() > input.Where(x => x % 2 != 0).Count())
-            {
+            if (input.Where(x => x % 2 == 0).Count() > input.Where(x => x % 2 != 0).Count())
                 return 1;
-            }
             return 0;
         }
     }
