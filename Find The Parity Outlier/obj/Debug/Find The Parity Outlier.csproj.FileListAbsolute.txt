@@ -1,0 +1,12 @@
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Find The Parity Outlier.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Find The Parity Outlier.pdb
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\obj\Debug\Find The Parity Outlier.csprojResolveAssemblyReference.cache
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\obj\Debug\Find The Parity Outlier.dll
+C:\Users\darren.zhang35\Desktop\Find The Parity Outlier\Codewars_Find-The-Parity-Outlier\Find The Parity Outlier\obj\Debug\Find The Parity Outlier.pdb
