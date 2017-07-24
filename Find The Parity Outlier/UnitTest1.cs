@@ -15,6 +15,17 @@ namespace Find_The_Parity_Outlier
             int expected = 0;
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Input_0_1_minInt_Should_Be_1()
+        {
+            var kata = new Kata();
+            int[] input = { 0, 1, int.MinValue };
+            int actual = kata.Find(input);
+            int expected = 1;
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 
     public class Kata
