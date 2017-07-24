@@ -38,8 +38,8 @@ namespace Find_The_Parity_Outlier
         public int Find(int[] input)
         {
             if (input.Where(x => x % 2 == 0).Count() > input.Where(x => x % 2 != 0).Count())
-                return 1;
-            return 0;
+                return input.Where(x => x % 2 != 0).FirstOrDefault();
+            return input.Where(x => x % 2 == 0).FirstOrDefault();
         }
     }
 }
