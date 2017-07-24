@@ -21,7 +21,7 @@ namespace Find_The_Parity_Outlier
     {
         public int Find(int[] input)
         {
-            throw new NotImplementedException();
+            return 0;
         }
     }
 }
