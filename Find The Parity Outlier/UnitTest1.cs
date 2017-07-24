@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Find_The_Parity_Outlier
@@ -24,7 +25,6 @@ namespace Find_The_Parity_Outlier
             int actual = kata.Find(input);
             int expected = 1;
             Assert.AreEqual(expected, actual);
-
         }
     }
 
@@ -32,6 +32,10 @@ namespace Find_The_Parity_Outlier
     {
         public int Find(int[] input)
         {
+            if (input.Where(x=>x%2==0).Count() > input.Where(x => x % 2 != 0).Count())
+            {
+                return 1;
+            }
             return 0;
         }
     }
